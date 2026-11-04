@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - LuminaShutter</title>
+  <style>
+    :root {
+      --bg: #0D0D11;
+      --card-bg: #16161D;
+      --text-main: #EDEDED;
+      --text-muted: #8E8E93;
+      --accent: #FF9F0A;
+      --border: rgba(255, 255, 255, 0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text-main);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 40px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: rgba(255, 159, 10, 0.12);
+      border: 1px solid rgba(255, 159, 10, 0.3);
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-bottom: 16px;
+    }
+    h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+    .updated { font-size: 13px; color: var(--text-muted); margin-bottom: 30px; }
+    h2 { font-size: 18px; font-weight: 600; margin: 28px 0 10px; color: var(--accent); }
+    p { margin-bottom: 16px; color: #D1D1D6; font-size: 15px; }
+    ul { margin: 0 0 20px 24px; color: #D1D1D6; font-size: 15px; }
+    li { margin-bottom: 8px; }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--text-muted);
+      text-align: center;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">Privacy Policy</div>
+    <h1>LuminaShutter Privacy Policy</h1>
+    <div class="updated">Last Updated: November 2026 • 2026 BTPSEC LTD</div>
+
+    <p>At LuminaShutter, your privacy is our foundational architectural commitment. We believe photography tools should operate exclusively on your device without collecting, transmitting, or tracking your personal data.</p>
+
+    <h2>1. 100% On-Device Processing</h2>
+    <p>All computational photography algorithms—including 32-bit floating point blending, temporal averaging, and median pedestrian filtering—run 100% locally on your iPhone's hardware and GPU via WebGL shaders. No camera feed, preview frames, or final processed photos ever leave your device or get uploaded to external servers.</p>
+
+    <h2>2. Camera & Photo Library Access</h2>
+    <ul>
+      <li><strong>Camera Access:</strong> LuminaShutter requests camera access solely to capture real-time frames during live exposures. Camera feeds are rendered directly into local GPU memory buffers and immediately discarded after processing.</li>
+      <li><strong>Photo Library Access:</strong> Required strictly to save your rendered long-exposure photos to your Camera Roll and allow you to view prior captures within the app.</li>
+      <li><strong>Motion & Gyroscope Sensors:</strong> Used on-device to calculate handheld anti-shake compensation, horizon leveling, and camera movement during bulb exposures. Sensor data is never saved or transmitted.</li>
+    </ul>
+
+    <h2>3. Zero Telemetry, Zero Analytics, Zero Ads</h2>
+    <p>LuminaShutter contains no third-party tracking SDKs, no advertising frameworks, and no behavioral analytics tools. We do not track what you shoot, when you shoot, where you travel, or how long you use the camera.</p>
+
+    <h2>4. In-App Purchases</h2>
+    <p>Purchases for LuminaShutter Lifetime Pro are handled entirely by Apple's secure StoreKit 2 payment infrastructure. We never receive or store your credit card information, billing address, or Apple Account credentials.</p>
+
+    <h2>5. Contact Us</h2>
+    <p>If you have questions regarding this Privacy Policy or LuminaShutter's security design, please reach out to our team at <a href="mailto:support@btpsec.com">support@btpsec.com</a> or visit our <a href="support.html">Support Page</a>.</p>
+
+    <footer>
+      © 2026 BTPSEC LTD. All rights reserved. LuminaShutter is a trademark of BTPSEC LTD.
+    </footer>
+  </div>
+</body>
+</html>
